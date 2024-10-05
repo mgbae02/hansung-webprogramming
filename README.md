@@ -35,7 +35,7 @@
 
 object-gen.html
 - 객체 생성 3가지 방법 연습
--기타
+6. 기타
 -practice8.4.html: 연습문제 8-4
 -practice8.6.html: 연습문제 8-6
 -practice8.9.html: 연습문제 8-9
