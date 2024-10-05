@@ -31,10 +31,6 @@
    - DOM 객체 다루기(CSS 속성, JavaScript 속성), document 객에(HTML 문서 전체 대변, DOM 접근의 시작점, 최상위 객체, 주요 메소드), DOM 객체 찾기(getElementByld, getElementsByTagName, getElementByClassName)
    - 문서의 동적 구성(createElement, appendChild, removeChild)
    - DOM Practice(연습문제 8-4, 8-9, 8-9)
-
-
-object-gen.html
-- 객체 생성 3가지 방법 연습
 6. 기타
    - practice8.4.html: 연습문제 8-4
    - practice8.6.html: 연습문제 8-6
