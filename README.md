@@ -31,7 +31,14 @@
    - DOM 객체 다루기(CSS 속성, JavaScript 속성), document 객에(HTML 문서 전체 대변, DOM 접근의 시작점, 최상위 객체, 주요 메소드), DOM 객체 찾기(getElementByld, getElementsByTagName, getElementByClassName)
    - 문서의 동적 구성(createElement, appendChild, removeChild)
    - DOM Practice(연습문제 8-4, 8-9, 8-9)
-6. 기타
+6. week6
+   - 6주차 연습
+   - DOM 리뷰 (DOM의 필요성, DOM tree와 HTML 관계, DOM객체 제어, 동적 DOM조작
+   - HTML DOM(태그와 DOM 객체 대응, DOM tree와 HTML 문서의 관계), HTML 태그(Element, innerHTML), DOM 객체 구성 요소(Property, Method, Collection, Event Listener, CSS3 style)
+   - DOM 객체 다루기(CSS 속성, JavaScript 속성), document 객에(HTML 문서 전체 대변, DOM 접근의 시작점, 최상위 객체, 주요 메소드), DOM 객체 찾기(getElementByld, getElementsByTagName, getElementByClassName)
+   - 문서의 동적 구성(createElement, appendChild, removeChild)
+   - DOM Practice(연습문제 9-2, 9-3)
+7. 기타
    - practice8.4.html: 연습문제 8-4
    - practice8.6.html: 연습문제 8-6
    - practice8.9.html: 연습문제 8-9
