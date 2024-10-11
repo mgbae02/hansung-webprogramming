@@ -34,6 +34,11 @@
 6. week6
    - 6주차 연습
    - Event 리뷰
+   - 이벤트란 사용자의 입력, 문서나 브라우저의 상태 변화를 js code에 알리는 것, 이벤트 리스너: 이벤트 발생시 실행되는 코드, eventName-onEventName
+   - 이벤트 객체는 이벤트에 대한 정보를 담은 객체로 이벤트 처리 후 객체가 소멸 된다
+   - 이벤트의 흐름은 캡처->이벤트발생->버블
+   - 마우스 핸들링 (onclick, ondblcilck,onmousedown,onmouseon...)
+   - 키 이벤트(onkeydown,onkeypress,onkeyup)
    - Event Practice(연습문제 9-2, 9-3)
 7. 기타
    - practice8.4.html: 연습문제 8-4
