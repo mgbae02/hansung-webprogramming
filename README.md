@@ -102,4 +102,6 @@
    - add.js
    - app1.js~app8.js
 15. 기타
-
+   - timer.js
+   - 7-3win.py
+   - 7-4win.py
