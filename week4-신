@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function inquiry(){return this.after;}
+            function deposit(students){this.after+=students;}
+            function afterst(students){
+                this.after+=students;
+                return students;
+            }
+
+                var account = new Object();
+                account.name="웹프로그래밍";
+                account.eng="Web Programming";
+                account.student=0;
+                account.after=0;
+                account.inquiry = inquiry;
+                account.deposit = deposit;
+                account.afterst = afterst;
+            
+
+
+        </script>
+
+        <script>
+            let account2={
+                name2:"클라우드컴퓨팅",
+                eng2:"Cloud Computing",
+                student2: 0,
+                after2:0,
+
+                inquiry2 : function(){return this.after2;},
+                deposit2: function(students2){this.after2+=students2;},
+                afterst2: function(students2){
+                    this.after2+=students2;
+                    return students2;
+                }
+            };
+
+        </script>
+        <script>
+            function Account3(name3,eng3,student3,after3){
+                this.name3=name3;
+                this.eng3=eng3;
+                this.student3=student3;
+                this.after3=after3;
+
+                this.inquiry3=function(){return this.after3;}
+                this.deposit3=function(students3){this.after3+=students3;}
+                this.withdraw3=function(students3){
+                    this.after3+=students3;
+                    return students3;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h3>1. 직접 객체 만들기</h3>
+        <script>
+            document.write("교과목 이름 = " + account.name + "<br>");
+            document.write("교과목 영문 이름 = " + account.eng + "<br>");
+            document.write("등록 학생 수 = " + account.inquiry() + "<br>");
+    
+            account.afterst(1);
+            document.write("after register, 등록 학생 수 = " + account.inquiry() + "<br>");
+        </script>
+        <hr>
+        <h3>2. 리터럴 표기법</h3>
+        <script>
+            document.write("교과목 이름 = ");
+            document.write(account2.name2 + "<br>");
+
+            document.write("교과목 영문 이름 = ");
+            document.write(account2.eng2 + "<br>");
+
+            account2.deposit2(0);
+            document.write("등록 학생 수 = " + account2.inquiry2() + "<br>");
+            account2.afterst2(1)
+            document.write("after register, 등록 학생 수 = " + account2.inquiry2()+"<br>");
+
+        </script>
+        <hr>
+        <h3>3. Prototype</h3>
+        <script>
+            let account3=new Account3("프로그래밍언어론","Programming Language",0,0);
+
+            document.write("교과목 이름 = ");
+            document.write(account3.name3 + "<br>");
+
+            document.write("교과목 영문 이름 = ");
+            document.write(account3.eng3 + "<br>");
+
+            account3.deposit3(0);
+            document.write("등록 학생 수 = " + account3.inquiry3()+"<br>");
+            account3.withdraw3(1);
+            
+            document.write("after register, 등록 학생 수 =" + account3.inquiry3()+"<br>");
+            
+
+        </script>
+    </body>
+</html>

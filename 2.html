@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배민규-2</title>
+    <style>
+        .correct {
+            background-color: lightgreen;
+        }
+        .incorrect {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <p>2 + 3 = ?</p>
+    <form id="quizForm">
+        <label>
+            <input type="radio" name="answer" value="1" onclick="checkAnswer(this)"> 1
+        </label><br>
+        <label>
+            <input type="radio" name="answer" value="3" onclick="checkAnswer(this)"> 3
+        </label><br>
+        <label>
+            <input type="radio" name="answer" value="5" onclick="checkAnswer(this)"> 5
+        </label><br>
+        <label>
+            <input type="radio" name="answer" value="7" onclick="checkAnswer(this)"> 7
+        </label><br>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function checkAnswer(selected) {
+            let correctAnswer = "5"; // 정답
+            let resultElement = document.getElementById('result');
+
+            // 선택한 답안에 따라 색상 변경
+            if (selected.value === correctAnswer) {
+                selected.parentElement.style.backgroundColor = "lightgreen";
+            } else {
+                selected.parentElement.style.backgroundColor = "lightpink";
+            }
+
+            // 다른 선택지의 배경 색 초기화
+            const radios = document.getElementsByName('answer');
+            for (const radio of radios) {
+                if (radio !== selected) {
+                    radio.parentElement.style.backgroundColor = "";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

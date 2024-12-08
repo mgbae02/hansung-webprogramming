@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배민규 - X 그리기</title>
+</head>
+<body>
+    <canvas id="canvas" width="100" height="100" style="border:1px solid #000;"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.moveTo(20, 20); // X의 한 쪽
+        ctx.lineTo(80, 80); // X의 다른 쪽
+        ctx.moveTo(80, 20); // X의 한 쪽
+        ctx.lineTo(20, 80); // X의 다른 쪽
+        ctx.stroke();
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배민규-4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .officer-info {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>Officer 1:</p>
+    <p>Officer 2:</p>
+    <p>Officer 3:</p>
+    <button onclick="getOfficerInfo()">Officer 정보 입력</button>
+    
+    <div class="officer-info" id="officerInfo">
+        Officer 정보가 여기에 표시됩니다.
+    </div>
+
+    <script>
+        // Officer 객체 생성
+        function Officer(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        const officers = []; // Officer 객체를 저장할 배열
+
+        function getOfficerInfo() {
+            // prompt 창에서 이름과 나이 입력 받기
+            const input = prompt("이름과 나이를 입력하세요 (예: 김성동,30)");
+            if (input) {
+                const [name, age] = input.split(','); // 입력값을 ','로 분리
+                // 정보를 표시
+                if (name && age) {
+                    const officer = new Officer(name.trim(), parseInt(age.trim())); // Officer 객체 생성
+                    officers.push(officer); // 배열에 추가
+                    displayOfficers(); // Officer 정보를 화면에 표시
+                } else {
+                    alert("올바른 형식으로 입력해주세요.");
+                }
+            }
+        }
+
+        function displayOfficers() {
+            const officerInfoDiv = document.getElementById('officerInfo');
+            officerInfoDiv.innerHTML = ''; // 기존 내용 초기화
+            officers.forEach((officer, index) => {
+                officerInfoDiv.innerHTML += `Officer ${index + 1}: 이름: ${officer.name}, 나이: ${officer.age}세<br>`;
+            });
+        }
+    </script>
+</body>
+</html>
