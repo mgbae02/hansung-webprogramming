@@ -56,9 +56,7 @@
    - 13주차 연습
 14. week14
    - 14주차 연습
-
-
-7. 기타
+15. 기타
    - practice8.4.html: 연습문제 8-4
    - practice8.6.html: 연습문제 8-6
    - practice8.9.html: 연습문제 8-9
