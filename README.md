@@ -51,11 +51,15 @@
 7. week7
    - 7주차 연습
    - BOM 객체(자바스크립트로 브라우저 제어) Review
-   - window 객체 - 
+   - window 객체 
    - location 객체
    - navigator 객체
    - screen 객체
    - history 객체
+   - HTML5와 캔버스
+   - practice 10.5html
+   - practice 10.6html
+   - ex 10-4.html
 8. week8
    - 중간고사
    - 1~4.html o/x.html
@@ -63,12 +67,22 @@
    - 9주차 연습
    - 웹의 저장소(초기 웹, HTML5, 웹 저장소 유형)
    - 쿠키, 웹 스토리지, 세션스토리지, 로컬스토리지
+   - 12-2.html
+   - 12-2store.html
 10. week10
    - 10주차 연습
+   - 오디오 비디오 제어, 위치정보 서비스, 웹워
+   - 13-6.html
+   - ex13-9.html
+   - ex13-10.html
 11. week11
    - 11주차 연습
+   - 고급 자바스크립트(date type, EX6, hoisting, vvar, let, const
+   - javascript debugger
+   - javasscript 고급구문을 가진 코드 작
 12. week12
    - 12주차 연습
+   - 고급 자바스크립트(scope, closure, jsfunction, functional programming)
 13. week13
    - 13주차 연습
 14. week14
