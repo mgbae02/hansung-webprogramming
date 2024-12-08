@@ -88,6 +88,12 @@
    - 13주차 연습
    - node.js
    - module 활용 web server 만들
+   - dg.js
+   - dg.html
+   - multi.js
+   - mobile
+   - package.json
+   - package-lock.json
 14. week14
    - 14주차 연습
    - Express js
