@@ -40,6 +40,24 @@
    - 마우스 핸들링 (onclick, ondblcilck,onmousedown,onmouseon...)
    - 키 이벤트(onkeydown,onkeypress,onkeyup)
    - Event Practice(연습문제 9-2, 9-3)
+7. week7
+   - 7주차 연습
+8. week8
+   - 중간고사
+9. week9
+   - 9주차 연습
+10. week10
+   - 10주차 연습
+11. week11
+   - 11주차 연습
+12. week12
+   - 12주차 연습
+13. week13
+   - 13주차 연습
+14. week14
+   - 14주차 연습
+
+
 7. 기타
    - practice8.4.html: 연습문제 8-4
    - practice8.6.html: 연습문제 8-6
