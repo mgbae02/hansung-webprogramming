@@ -31,6 +31,10 @@
    - DOM 객체 다루기(CSS 속성, JavaScript 속성), document 객에(HTML 문서 전체 대변, DOM 접근의 시작점, 최상위 객체, 주요 메소드), DOM 객체 찾기(getElementByld, getElementsByTagName, getElementByClassName)
    - 문서의 동적 구성(createElement, appendChild, removeChild)
    - DOM Practice(연습문제 8-4, 8-9, 8-9)
+   - practice8.4.html: 연습문제 8-4
+   - practice8.6.html: 연습문제 8-6
+   - practice8.9.html: 연습문제 8-9
+   - assignment8.10.html: 연습문제 8-10(1,2)-과제
 6. week6
    - 6주차 연습
    - Event 리뷰
@@ -40,12 +44,25 @@
    - 마우스 핸들링 (onclick, ondblcilck,onmousedown,onmouseon...)
    - 키 이벤트(onkeydown,onkeypress,onkeyup)
    - Event Practice(연습문제 9-2, 9-3)
+   - practice9.2.html: 연습문제 9-2
+   - practice9.3.html: 연습문제 9-3
+   - assignment9.6.html: 연습문제 9-6-과제
+   - assignment9.10.html: 연습문제 9-10-과제
 7. week7
    - 7주차 연습
+   - BOM 객체(자바스크립트로 브라우저 제어) Review
+   - window 객체 - 
+   - location 객체
+   - navigator 객체
+   - screen 객체
+   - history 객체
 8. week8
    - 중간고사
+   - 1~4.html o/x.html
 9. week9
    - 9주차 연습
+   - 웹의 저장소(초기 웹, HTML5, 웹 저장소 유형)
+   - 쿠키, 웹 스토리지, 세션스토리지, 로컬스토리지
 10. week10
    - 10주차 연습
 11. week11
@@ -56,12 +73,9 @@
    - 13주차 연습
 14. week14
    - 14주차 연습
+   - app1.js~app8.js
 15. 기타
-   - practice8.4.html: 연습문제 8-4
-   - practice8.6.html: 연습문제 8-6
-   - practice8.9.html: 연습문제 8-9
-   - practice9.2.html: 연습문제 9-2
-   - practice9.3.html: 연습문제 9-3
-   - assignment8.10.html: 연습문제 8-10(1,2)-과제
-   - assignment9.6.html: 연습문제 9-6-과제
-   - assignment9.10.html: 연습문제 9-10-과제
+   
+   -
+   -
+   - 
